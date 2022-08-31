@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@300&display=swap');
+
+body {
+	height: 100%;
+	background-image: #713D35;
+}
+
+nav{
+	width: 100%;
+	background-color: #F7E0D9;
+	font-family: Playfair Display;
+	font-weight: bold;
+	font-size: 20px;
+	overflow: hidden;
+	border-bottom: 2px solid #3A0305;
+}
+
+h2 {
+	text-align: center;
+	font-family: Playfair Display;
+}
+
+.veza:link{
+	float: left;
+	padding: 14px 16px;
+	color: black;
+	text-align: center;
+	text-decoration: none;
+}
+
+.veza:visited{
+	color: #763a36;
+	text-decoration: none;
+}
+
+.veza:hover{
+	color: #C87469;
+	text-decoration: none;
+}
+
+.veza:active{
+	color: #CA9883;
+	text-decoration: none;
+}
+
+.veza-prijava{
+	position: absolute;
+    left: 90%;
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url(pozadina.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#naslov{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-color: #8d635d;
+	color: white;
+	text-align: center;
+	font-family: Playfair Display;
+	font-size: 30px;
+	border-bottom: 2px solid #3A0305;
+	overflow: hidden;
+}
+
+.sadrzaj {
+	display: flex;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 250px;
+	margin-right: 250px;
+	background-color: #C79F81;
+	font-family: Source Sans Pro;
+	font-size: 25px;
+	line-height: 400%;
+	border: 5px outset #C17767;
+}
+
+.slika{
+	margin-left: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	border: 2px solid black;
+}
+
+.podaci{
+	margin-top: 35px;
+	margin-left: 35px;
+	width: 50%;
+}
+
+.obrazac{
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-bottom: 50px;
+	background-color: #C79F81;
+	font-family: Source Sans Pro;
+	font-size: 25px;
+	line-height: 200%;
+	border: 5px solid #C17767;
+}
+
+.gumb {
+  background-color: #7F5049;
+  border: 2px solid #3A0305;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+  font-family: Source Sans Pro;
+}
+
+.gumb:hover {
+	background-color: #C17767;
+	color: white;
+}
+
+textarea {
+	font-family: Verdana;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #3A0305;
+	border-radius: 4px;
+}
+
+textarea:focus {
+	background-color: #E8B49E;
+}
+
+input[type=text] {
+	font-family: Verdana;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #3A0305;
+	border-radius: 4px;
+}
+
+input[type=text]:focus {
+  background-color: #E8B49E;
+}
+
+input[type=password] {
+    font-family: Verdana;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #3A0305;
+	border-radius: 4px;
+}
+
+input[type=password]:focus {
+  background-color: #E8B49E;
+  font-family: Verdana;
+  letter-spacing: 0.125em;
+}
+
+input[type=url] {
+	font-family: Verdana;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #3A0305;
+	border-radius: 4px;
+}
+
+input[type=url]:focus {
+  background-color: #E8B49E;
+}
+
+input[type=email] {
+	font-family: Verdana;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #3A0305;
+	border-radius: 4px;
+}
+
+input[type=email]:focus {
+  background-color: #E8B49E;
+}
+
+.izbornik {
+	font-family: Source Sans Pro;
+	font-size: 20px;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border: 2px solid #3A0305;
+	border-radius: 4px;
+	
+}
+
+.tablica {
+	width: 80%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-family: Source Sans Pro;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 40px;
+	background-color: #9b7771;
+	border-collapse: collapse;
+	border: 1px solid #381e1a;
+}
+
+.zaglavlje-tablice {
+	font-family: Source Sans Pro;
+    background-color: #65362f;
+    color: white;
+}
+
+.stranicenje{
+	font-family: Source Sans Pro;
+	text-align: center;
+	background-color: #713D35;
+}
+
+.stranicenje-veza {
+	text-decoration: none; 
+	font-size: 25px; 
+	color: black; 
+	letter-spacing: 20px; 
+	font-weight: bold;
+	transition: background-color .3s;
+}
+
+stranicenje-veza:active {
+	color: white;
+}
+
+stranicenje-veza:hover {
+	color: white;
+}
+
+.nova_pjesma{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+	background-color: #C79F81;
+	font-family: Source Sans Pro;
+	font-size: 25px;
+	line-height: 200%;
+	border: 5px solid #C17767;
+}
+
+.dobrodosli{
+	font-size: 50px;
+    font-family: Playfair Display;
+    margin-left: 25px;
+}
+
+.korisnik{
+	font-family: Source Sans Pro;
+    margin-left: 25px;
+    font-size: 25px;
+    color: black;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.kupi-gumb{
+	background-color: #9b7771; 
+	color: white; 
+	height: 30px; 
+	font-size: 15px;
+}
+
+.kupi-gumb:hover{
+	background-color: black;
+	cursor: pointer;
+}
+
+.izbornik{
+  font-family: Source Sans Pro;
+}
+
+.izbornik-selected{
+	background-color: #E8B49E;
+}
+
+.izbornik-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+}
+
+.izbornik-selected.select-arrow-active:after {
+  border-color: transparent transparent #fff transparent;
+  top: 7px;
+}
+
+p {
+	font-weight: bolder;	
+}
+
+.filter{
+	border: 1px solid black; 
+	width: 80%; 
+	margin-left: 10%; 
+	margin-right: 10%;
+	margin-top: 0%;
+	background-color: #9b7771;
+	font-family: Source Sans Pro;
+	text-align: center;
+}
+
+select {
+  width: 70%;
+  padding: 0px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
